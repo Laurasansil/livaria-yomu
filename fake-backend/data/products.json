@@ -1,0 +1,67 @@
+[
+  {
+    "id": "OL30515574M",
+    "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "rating": 5,
+    "authors": ["James Clear"],
+    "tags": ["best-seller"],
+    "price": 11.99
+  },
+  {
+    "id": "OL24918690M",
+    "name": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "rating": 4.5,
+    "authors": ["Charles Duhigg"],
+    "tags": ["best-seller"],
+    "price": 9.99
+  },
+  {
+    "id": "OL1898399M",
+    "name": "C.S. Lewis",
+    "rating": 4.9,
+    "authors": ["A. N. Wilson"],
+    "price": 7.99
+  },
+  {
+    "id": "OL32936821M",
+    "name": "The Alchemist",
+    "rating": 3.9,
+    "authors": ["Paulo Coelho"],
+    "price": 10.99
+  },
+  {
+    "id": "OL32026709M",
+    "name": "How to Win Friends and Influence People",
+    "rating": 4.5,
+    "authors": ["Dale Carnegie"],
+    "price": 8.59
+  },
+  {
+    "id": "OL24652736M",
+    "name": "Outliers",
+    "rating": 4.0,
+    "authors": ["Malcolm Gladwell"],
+    "price": 11.99
+  },
+  {
+    "id": "OL27241047M",
+    "name": "12 Rules For Life",
+    "rating": 4.1,
+    "authors": ["Jordan B. Peterson"],
+    "price": 10.29
+  },
+  {
+    "id": "OL20872333W",
+    "name": "Perfect pruning",
+    "rating": 0,
+    "authors": ["Simon Akeroyd"],
+    "price": 5.39
+  },
+  {
+    "id": "OL25434601M",
+    "name": "David and Goliath",
+    "rating": 4,
+    "authors": ["Malcolm Gladwell"],
+    "price": 10.99
+  }
+]

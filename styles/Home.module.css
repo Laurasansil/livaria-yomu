@@ -47,9 +47,8 @@
   display: flex;
   width: 20%;
   flex-direction: column;
-  height: 1000px;
   align-items: center;
-  /* background-color: #0070f3; */
+  background-color: #0070f3;
 }
 
 .products_container {
@@ -125,8 +124,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 1000px;
   /* background-color: #0070f3; */
+  height: 1000px;
 }
 
 .footer {

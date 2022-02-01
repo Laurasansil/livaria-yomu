@@ -1,15 +1,132 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  font-size: 20px;
+  background-color: #a3a3a3;
+}
+
+.header_links {
+  display: flex;
+  width: 60%;
+  margin-left: 18px;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header_user_container {
+  width: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 2;
+  display: flex;
+}
+.user_icon {
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.user_name {
+  margin-right: 20px;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.filter_container {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  height: 1000px;
+  align-items: center;
+  /* background-color: #0070f3; */
+}
+
+.products_container {
+  display: flex;
+  width: 60%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.products {
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  width: 90%;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.books {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  border: solid rgb(190, 190, 190) 1px;
+  border-radius: 5px;
+  width: 200px;
+  min-height: 250px;
+  margin-right: 2px;
+  margin-bottom: 20px;
+}
+
+.book_cover {
+  margin-top: 20px;
+  width: 180px;
+  height: 280px;
+}
+
+.book_details {
+  padding-top: 5px;
+
+  width: 120px;
+  min-height: 50px;
+  font-size: 10px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+.book_name {
+  font-size: 14px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+
+.book_author {
+  font-size: 10px;
+}
+
+.book_price {
+  display: flex;
+  justify-content: space-between;
+}
+.promotion_container {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+  /* background-color: #0070f3; */
 }
 
 .footer {
@@ -101,11 +218,6 @@
   margin: 0;
   font-size: 1.25rem;
   line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {

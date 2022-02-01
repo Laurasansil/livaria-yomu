@@ -1,0 +1,9 @@
+<div className="{styles.book_details}">
+  {products.map((product: any) => { return ( <>
+  <div className="{styles.details}" key="{product.id}">
+    <span className="{styles.book_name}"> {product.name} </span>
+    <span className="{styles.book_author}"> {product.authors} </span>
+    <span className="{styles.book_price}"> $ {product.price} </span>
+  </div>
+  ) })}
+</div>

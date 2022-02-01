@@ -56,12 +56,5 @@
     "rating": 0,
     "authors": ["Simon Akeroyd"],
     "price": 5.39
-  },
-  {
-    "id": "OL25434601M",
-    "name": "David and Goliath",
-    "rating": 4,
-    "authors": ["Malcolm Gladwell"],
-    "price": 10.99
   }
 ]

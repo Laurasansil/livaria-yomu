@@ -2,6 +2,8 @@ import { rest } from "msw";
 import products from "./data/products.json";
 import user from "./data/user.json";
 
+//colocar o token no context
+
 export const handlers = [
   rest.get("https://backend.dev/products", (req, res, ctx) => {
     return res(ctx.json(products));

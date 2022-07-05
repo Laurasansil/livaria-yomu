@@ -11,9 +11,10 @@ export const handlers = [
   rest.post("https://backend.dev/login", (req, res, ctx) => {
     // @ts-ignore
     const { email, password } = JSON.parse(req.body);
-    if (email == "laura@yomu.com" && password == "asdf") {
+    if (email == "laura@yomu.com" && password == "moranguinho") {
       return res(ctx.json(user));
     }
+
     return res(
       // Send a valid HTTP status code
       ctx.status(401),
